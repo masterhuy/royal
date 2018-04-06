@@ -155,8 +155,7 @@
     padding-top: 0;
 }
 @media(max-width: 481px){
-	.jms_ajax_search .search-box{
-		right:-130px;
+	.jms_ajax_search .search-box{;
 		min-width: 232px;
 	}
 	.header-bar .jms_ajax_search.open > a::before{

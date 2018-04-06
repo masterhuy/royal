@@ -126,7 +126,7 @@ table#cart_summary .cart_quantity_button a.button-plus {
 =            Cartblock            =
 =================================*/
 #cart_block .ajax_cart_quantity {
-  left: 1.35vw;
+  left: 13px;
   right: auto; }
 #cart_block .dropdown-toggle .cart_block_total {
 	margin-left:10px;
@@ -196,12 +196,7 @@ table#cart_summary .cart_quantity_button a.button-plus {
 #ajax_search {
     right: 26px;
 }
-.btn-group.jms_ajax_search.open .dropdown-menu.search-box{
-	left:13px;
-	right:auto;
-}
 #search_result {
-    right: 26px !important;
     text-align: right !important;
 }
 /*===================================
@@ -305,19 +300,9 @@ table#cart_summary .cart_quantity_button a.button-plus {
 right:0;
 left:auto !important;	
 }
-.home_7 .jms-megamenu .dropdown-menu{
-	right:auto;
-	left:100% !important;
-}
-.home_7 .jms-megamenu .menu-align-center > .dropdown-menu{
-	right:auto !important;
-}
 .jms-megamenu .menu-align-center > .dropdown-menu {
     left: 0 !important;
     right: 0 !important;
-}
-.home_7 .jms-megamenu .menu-align-center.item-fullwidth > .dropdown-menu{
-	left:100% !important;
 }
 .mega-nav > .mega > .dropdown-menu{
 	left:0;
@@ -327,18 +312,17 @@ left:auto !important;
     padding-right: 45px !important;
 }
 .home_1 .jms-megamenu .menu-align-center.item-fullwidth > .dropdown-menu{
-	right:100% !important;
-}
-.home_6 .jms-megamenu .menu-align-center.item-fullwidth > .dropdown-menu{
-	left:100% !important;
+	right:0 !important;
 }
 .jms-megamenu .mega-nav .mega > a::after {
     left: 20px;
     right: auto;
-    transform: rotate(180deg);
+}
+.header-menu .item-fullwidth .mega-nav li > a  {
+  padding: 3.5px 25px 3.5px 0 !important;
 }
 .jms-megamenu .mega-nav li > a {
-    padding: 3.5px 35px 3.5px 0 !important;
+    padding: 9px 35px 9px 9px !important;
 }
 .mega-col-nav.img-bottom.img-left {
     padding-left: 0 !important;
@@ -540,7 +524,8 @@ body#checkout section.checkout-step.-reachable.-complete h1 .step-edit{
 .pagination-block {
   text-align: left; }
 .pagination li {
-    float: left;
+  float: left;
+  margin-right: 5px;
 }
 
 /*=====================================
@@ -821,14 +806,16 @@ ul.footer_links li {
 	display:none;
 }
 .images-container .product-images > li.thumb-container > .thumb {
-    margin-left: 23px;
     margin-right: 0;
 }
+.product-variants-item.size::after {
+  right: 161px;
+}
 .product-quantity .bootstrap-touchspin-down{
-	left:-40px !important;
+	left:-30px !important;
 }
 .product-quantity input#quantity_wanted{
-	margin-right:40px;
+	margin-right:30px;
 	margin-left:0;
 }
 .pack-product-container .mask > img {
@@ -837,8 +824,11 @@ ul.footer_links li {
 }
 /* Checkout Page */
 	.cart-summary .label {
-		float: right;
+		float: left;
 	}
+  .cart-summary .value {
+    float: none;
+  }
 	.cart-grid-right .block-social ul li {
 		margin-left:10px;
 		margin-right:0;
@@ -972,9 +962,6 @@ ul.wlp_bought_list li .btn_action .btn {
 /*========================================
 =            JMS Fluent          =
 ========================================*/
-.fs-pager-wrapper a, .fs-custom-pager-wrapper a {
-    margin: 0 0 0 28px !important;
-}
 .fs-pager-wrapper a.active::before{
 	left: -114px !important;
 }
@@ -1140,4 +1127,41 @@ footer .post-created {
 	.best-sellers_block_right .product-box .product-info .content_price {
 	  text-align: right;
 	}
+}
+.other-info > li label {
+  padding-left: 13px;
+  padding-right: 0;
+}
+.price {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.js-qv-mask.mask.scroll{
+  margin-left: 37px;
+}
+#js-product-list-top .left .view-grid {
+  left: 10px;
+  right: auto;
+}
+.modal-content .thumb.js-thumb {
+  margin-right: 10px;
+}
+#js-product-list-top .left .view-list {
+  left: 50px;
+  right: auto;
+}
+.inlude_sort_by {
+  float: right;
+}
+.products-sort-order.dropdown i {
+  right: 27px;
+  left: auto;
+}
+#category .color-style .custom-checkbox, #category .facet.categories .custom-checkbox, #category .facet.price .custom-checkbox {
+  padding-right: 11px;
+  margin-left: 8px;
+}
+.custom-checkbox input {
+  margin-left: 4px;
+  margin-right: 0;
 }

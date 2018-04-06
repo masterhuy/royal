@@ -1,8 +1,5 @@
 
 @media (max-width: 1700px){
-.nav-child.dropdown-menu.mega-dropdown-menu.fullwidth {
-    width: 815px !important;
-}
 .mega-col-nav.img-first {
     margin-bottom: 30px;
 }
@@ -22,16 +19,6 @@
 .mega-col-nav.img-bottom {
     width: 32%;
 }
-.home_2 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth , .home_4 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth , 
-.home_5 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth, .home_8 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth {
-    width: 1300px !important;
-}
-}
-@media (max-width: 1400px){
-   .btn-shopnow {
-		font-size: 1.1vw;
-		padding: 1vw 1.9vw;
-	}
 }
 @media (max-width: 1200px) {
 #cart_block.shoppingcart-bottom .shoppingcart-content {
@@ -61,9 +48,6 @@
 }
 
 @media (max-width: 1330px){
-	.container{
-		width:1170px;
-	}
 	.home_2 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth, .home_4 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth,
     .home_5 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth, .home_8 .nav-child.dropdown-menu.mega-dropdown-menu.fullwidth{
 		width: 1170px !important;
@@ -78,19 +62,22 @@
 	}
 }
 @media (max-width: 1199px){
+	.js-qv-mask.mask.scroll{
+		padding-right: 25px;
+	}
+	.product-quantity .add-to-cart{
+		padding: 10px 20px;
+	}
 	.container {
 		padding: 0 15px;
-		width: auto;
 	}	
 	#cart_block .shoppingcart-box{
-		right:0;
+		right: -15px;
+		top: 65px;
 	}
 	#ajax_search {
 		top: 0;
 		background:#fff;
-	}
-	.btn-group.open .dropdown-menu::before {
-		right: 10px;
 	}
 	.nav-child.dropdown-menu.mega-dropdown-menu.fullwidth {
 		width: 624px !important;
@@ -141,6 +128,12 @@
 	
 	.products-list-in-column.products-list-5 .js-product-miniature, .products-list-in-column.products-list-6 .js-product-miniature{
 		width:25%;
+	}
+}
+@media (max-width: 1400px){
+	.slides .btn-shopnow{
+		font-size: 1.1vw;
+		padding: 1vw 1.9vw;
 	}
 }
 @media (max-width: 991px){
@@ -232,35 +225,48 @@
 	}
 }
 @media (max-width: 767px){
+	.product-preview .product-info .product_button .quick-view{
+		display: flex !important;
+	}
+	.banner .countdown-box img{
+		max-width: 100%;
+		height: auto;
+	}
+	.banner .countdown-box{
+        display: block;
+        text-align: center;
+    }
+    .banner .countdown-box .content {
+        margin-left: 0;
+        margin-top: 30px;
+        padding-bottom:30px;
+    }
+    .countdown.is-countdown {
+        margin-bottom: 30px;
+    }
+	.slides, .service, .banner{
+		margin-bottom: 30px;
+	}
+	.service .layout-column{
+		margin-bottom:30px;
+	}
+	.slides .text-small {
+		letter-spacing: 1px;
+	}
+	.slides .text-large::after {
+		bottom: -5px;
+	}
 	.title_meta, .breadcrumb-inner{
 		float:none;
 	}
 	.breadcrumb-box{
 		text-align:center;
 	}
-   .btn-shopnow {
-		font-size: 1.7vw;
-		margin-top: 3vw;
-		padding: 2vw 3vw;
-	}
-   .text-large {
-		font-size: 4.5vw;
-		line-height: 5vw;
-	}
-    .text-small {
-		font-size: 1.6vw;
-	}
-	.home_1 .text-small{
-		line-height:8vw;
-	}
 	.pagenotfound h1 {
 		font-size: 25vw;
 	}
 	.filters-panel{
 		margin-top:15px;
-	}
-	.products-list-in-row .preview {
-		width: 46%;
 	}
 	.pagination.pull-right , .product-count.pull-left {
 		width: 50%;
@@ -390,12 +396,6 @@
 	.nav-tabs li a::before{
 		display:none;
 	}
-	.fraction-slider {
-		height: 57vw !important;
-	}
-	.jms-slider-wrapper .slide {
-		background-position: 50% 50% !important;
-	}
 	.pagenotfound input {
 		width: 450px;
 	}
@@ -452,20 +452,11 @@
 		left: 67px;
 	}
 	#cart_block .shoppingcart-box {
-		min-width: 277px;
-		padding: 20px;
-	}
-	.fraction-slider {
-		height: 69vw !important;
-	}
-	.text-large {
-		font-size: 4.5vw;
+		min-width: 275px;
+		padding: 15px;
 	}
 	.fs-pager-wrapper a, .fs-custom-pager-wrapper a{
 		font-size:12px;
-	}
-	.fs-pager-wrapper {
-        bottom: 2px
 	}
 	.logo > span {
 		font-size: 36px;
@@ -510,13 +501,6 @@
 	}
 	.pagination ul{
 		width:100%;
-	}
-	.products-list-in-row .product_button a.cart-button.btn-default {
-		margin-right: 5px;
-		padding: 4px 9px;
-	}
-	#cart_block .shoppingcart-box{
-		margin-top:16px;
 	}
 	.product_list .item.ajax_block_product.items-2, .product_list .item.ajax_block_product.items-4, .product_list .item.ajax_block_product.items-5,
     .product_list .item.ajax_block_product.items-6	{

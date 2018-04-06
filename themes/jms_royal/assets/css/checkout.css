@@ -41,7 +41,8 @@
 .tab-content .form-group .input-group-btn button {
     border-color: #ebebeb;
     border-left: 0 none #ebebeb;
-    padding: 6px 20px;
+    padding: 12px 20px;
+    border:0;
 }
 #checkout .tab-content > .tab-pane {
 	display: none;
@@ -78,6 +79,9 @@
 }
 #checkout #checkout-login-form .forgot-password {
 	margin-bottom:15px;
+}
+#checkout #checkout-login-form .forgot-password a{
+	line-height: 24
 }
 #checkout #checkout-personal-information-step, #checkout #checkout-addresses-step, #checkout #checkout-delivery-step, #checkout #checkout-payment-step {
 	border: 1px solid #ebebeb;

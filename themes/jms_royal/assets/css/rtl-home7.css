@@ -1,65 +1,67 @@
-.wrapper-banner.banner-top .banner-box {
-    padding-left: 0;
-    padding-right: 68px;
+.top-bar .left .addon-box:not(:first-child) {
+	border-right: 1px solid #272727;
+	border-left: 0;
 }
-.wrapper-banner.banner-midle .banner-box {
-    padding-left: 97px;
-    padding-right: 0;
+.top-bar .left .addon-box:first-child {
+	padding-right: 0;
+	padding-left: 30px;
 }
-footer .blog-item .img-responsive {
-    margin-left: 24px;
-    margin-right: 0;
-    width: 67px;
+.top-bar .right .addon-box {
+	float: left;
 }
-#social_block ul li {
-    margin-left: 0;
-    margin-right: 16px;
+.top-bar .right #social_block ul li {
+	padding-right: 19px;
+	padding-left: 0;
 }
-.footer_b_left li {
-    margin-right: 0;
-	margin-left:26px;
+.menu .addon-box:last-child {
+	text-align: left;
 }
- .newsletter-input {
-    margin-left: 6px;
-    margin-right: 0;
+.menu .addon-box:first-child li {
+	padding-right: 35px;
+	padding-left: 0;
 }
-.footer_b_right div{
-	float:left;
+.menu .nav.level0 {
+	margin-left: -26px;
+	margin-right: 0;
 }
-#ajax_search {
-    right: -131px;
+.header #cart_block .ajax_cart_quantity {
+	left: 31px;
 }
-#cart_block .shoppingcart-box {
-    left: calc(100% + 214px);
+.header .shopping-cart .addon-box {
+	float: left;
 }
-.home_7 #layer_cart {
-    left: 0;
-    right: -100%;
-    transform: translate(50%);
+.newsletter .textnews {
+	margin-left: 94px;
+	margin-right: 0;
 }
-@media (max-width: 1199px){
-	.wrapper-banner.banner-midle .banner-box {
-		padding-left: 30px;
-		padding-right:0;
-	}
+.footer-top .info ul li::before, .footer-top .account ul li::before {
+	padding-left: 10px;
+	padding-right: 0;
 }
-@media (max-width: 991px){
-	.menu_hidden {
-		left: auto;
-		right: 0;
-	}
-	.search_cart{
-		left:0;
-		right:auto;
-	}
-	.home_7 #layer_cart {
-		left: 0;
-		right: -50%;
-		transform: translate(50%);
-	}
+.footer-top .phone {
+	padding-right: 40px;
+	padding-left: 0;
 }
-@media (max-width: 767px){
-.footer_b_right div {
-    float: right;
+.footer-top .icon-earphones-alt {
+	right: 0;
 }
+.footer-bottom .right p {
+	text-align: left;
+}
+.footer-bottom .right img {
+	padding-right: 16px;
+	padding-left: 0;
+}
+.top-bar .left #ajax_search {
+	right: 0;
+}
+.menu .jms-megamenu .menu-align-center > .dropdown-menu {
+	left: -388px !important;
+	right: auto !important;
+}
+.menu .item-fullwidth .mega-nav li > a  {
+  padding: 3.5px 25px 3.5px 0 !important;
+}
+.top-bar .left #search_result {
+	left: 0;
 }

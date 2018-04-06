@@ -1,60 +1,75 @@
-.headertop_right .addon-box{
-	float:left;
+.header-top .left .addon-box {
+    float: right;
 }
-.headertop_right .addon-box:first-child {
-    padding-right: 20px;
+.header-top .left .addon-box .btn-xs {
+    border-right: 1px solid #ebebeb;
+    border-left: 0;
 }
-.headertop_right .addon-box:first-child {
-    padding-left: 0;
-    padding-right: 20px;
+.header-top .left .icon {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
-
-.owl-dots {
-    left: 0;
-    right:auto;
+.header-top .left .addon-box .btn-xs {
+    border-left: 1px solid #ebebeb;
+    border-right: 0;
 }
-.inputNew.form-control.newsletter-input{
-	margin-right:0;
-	margin-left:6px;
+.header-top .left .addon-box:first-child .btn-xs{
+    padding-left: 30px !important;
 }
-.btn-group.open > .dropdown-menu{
-	left:0;
-	right:auto;
+.header-top .left .addon-box:last-child .btn-xs{
+    border-left: 0;
 }
-.btn-group.open .dropdown-menu::before {
-    left: 14px;
-    right: auto;
+.header-top .right .addon-box {
+    float: left;
 }
-.headertop_center {
-    left: auto;
-    right: 15px;
-}
-.headertop_right {
-    left: 15px;
-    right: auto;
-}
-.banner_left .wrapper-banner .box-content{
-	padding-left:0;
-	padding-right:50px;
-}
-.headertop_right {
+.header-top .right .my-cart {
     padding-left: 15px;
+    padding-right: 0;
 }
-.testimonial-info {
-    border-left: 0 none;
+.header-top .right #cart_block .ajax_cart_quantity {
+    right: 111px;
+}
+.header-top #social_block ul li {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.header-top #search_result {
+    left: 0;
+}
+.header-top .right .cart-icon {
+    padding-right: 30px;
     border-right: 1px solid #ebebeb;
     padding-left: 0;
-    padding-right: 60px;
+    border-left: 0;
 }
-.info_people {
-    padding-left: 60px;
-    padding-right: 16px;
+.header-top #cart_block {
+    padding-right: 30px;
 }
-@media (max-width: 481px){
-	#ajax_search{
-		top:-18px !important;
-	}
-	#cart_block .shoppingcart-box{
-		top:12px;
-	}
+.menu .item-fullwidth .mega-nav li > a  {
+  padding: 3.5px 25px 3.5px 0 !important;
+}
+.product-tab .product-preview .product-info .product_button {
+    margin-right: -5px;
+}
+.product-tab .product-miniature .product-info {
+    text-align: right;
+    padding-right: 24px;
+    padding-left: 0;
+}
+.footer-top .newsletter-btn.footer {
+    border-right: 1px solid #3a3a3a;
+    border-left: 0;
+}
+.footer-top .info ul li::before {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.footer-top .phone {
+    padding-right: 40px;
+}
+.footer-top .icon-earphones-alt {
+    right: 0;
+}
+.header-top .left #ajax_search {
+    right: 0;
 }

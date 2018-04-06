@@ -65,17 +65,14 @@
               {block name='product_cover_tumbnails'}
                 {include file='catalog/_partials/product-cover-thumbnails.tpl'}
               {/block}
-              <div class="scroll-box-arrows">
-                <i class="fa fa-angle-left left"></i>
-                <i class="fa fa-angle-right right"></i>
-              </div>
+              
             {/block}
           </section>
         {/block}
 		    </div>
         <div class="addthis_inline_share_toolbox share-group"></div>
       </div>
-        <div class="pb-right-column col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="pb-right-column col-xs-12 col-sm-6 col-md-6 col-lg-6">
     			{block name='page_header_container'}
     				{block name='page_header'}
     					<h2  itemprop="name">{block name='page_title'}{$product.name}{/block}</h2>

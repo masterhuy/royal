@@ -1,8 +1,3 @@
-$(document).ready(function(){
-  $(".menu-item > a").click(function(){
-    $(this).parent().toggleClass('open');
-  });   
-});
 $(window).load(function(){
 		if($('.slider').length > 0)
 		$('.slider').fractionSlider({	

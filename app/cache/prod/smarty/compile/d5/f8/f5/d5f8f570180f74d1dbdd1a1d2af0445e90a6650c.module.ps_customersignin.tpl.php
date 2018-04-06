@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-30 05:42:30
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:12:57
          compiled from "module:ps_customersignin/ps_customersignin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:87375abe0686117eb5-57951773%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:317785ac71df9986973-67509966%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd5f8f570180f74d1dbdd1a1d2af0445e90a6650c' => 
     array (
       0 => 'module:ps_customersignin/ps_customersignin.tpl',
-      1 => 1522295189,
+      1 => 1522637393,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '87375abe0686117eb5-57951773',
+  'nocache_hash' => '317785ac71df9986973-67509966',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5abe0686171c58_97812014',
+  'unifunc' => 'content_5ac71df9a17204_74379558',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5abe0686171c58_97812014')) {function content_5abe0686171c58_97812014($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ac71df9a17204_74379558')) {function content_5ac71df9a17204_74379558($_smarty_tpl) {?>
 <div id="_desktop_user_info">
   <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==6||$_smarty_tpl->tpl_vars['jpb_homepage']->value==3||$_smarty_tpl->tpl_vars['jpb_homepage']->value==5||$_smarty_tpl->tpl_vars['jpb_homepage']->value==7) {?>
    <div class="user-info btn-group compact-hidden  ">
@@ -112,7 +112,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " class="account" rel="nofollow">
 		<?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==1) {?>
     <span class="icon-user icons"></span>
-        <p>Account</p>
+        <p class="account">Account</p>
     <?php }?>
     <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==2||$_smarty_tpl->tpl_vars['jpb_homepage']->value==4||$_smarty_tpl->tpl_vars['jpb_homepage']->value==8) {?>
     <span>Login</span>

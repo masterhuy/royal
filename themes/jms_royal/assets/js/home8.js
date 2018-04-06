@@ -127,11 +127,13 @@ jQuery(function ($) {
 					nav: p_nav_blog,
 			        dots: p_pag_blog,
 					autoplay:auto_play_blog,
+					loop:true,
 					slideSpeed: 800,	
 			});
 		}
-		if($(".brand-carousel").length) {
-			var brandCarousel = $(".brand-carousel");		
+		"use strict";
+	if($(".brand-carousel").length) {
+			var brandCarousel = $(".brand-carousel");			
 			var rtl = false;
 			if ($("body").hasClass("rtl")) rtl = true;				
 			brandCarousel.owlCarousel({
@@ -149,16 +151,22 @@ jQuery(function ($) {
 					481:{
 						items:brand_itemsMobile
 					},
+					361:{
+						items:1
+					},
 					0: {
 						items:1
 					}
 				},
-					rtl: rtl,
-					margin:0,
-					nav: p_nav_brand,
+				rtl: rtl,
+					margin: 30,
+				    nav: p_nav_brand,
 			        dots: p_pag_brand,
-					autoplay:auto_play_brand,
-					slideSpeed: 800,	
+					autoplay: auto_play_brand,
+					loop:true,
+				    navigationText: ["", ""],
+				    slideSpeed: 200
 			});
 		}
+
 });

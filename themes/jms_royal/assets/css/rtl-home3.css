@@ -1,127 +1,76 @@
-.header_top {
-    padding: 35px 70px 35px 47px;
+.header-top .right #ajax_search {
+    left: 306px;
+    right: auto;
 }
-.headertop_right .addon-box{
-	float:left;
-}
-.headertop_right .addon-box:first-child{
-	margin-left:0;
-}
-.top_menu_second {
+.header-top .right .addon-box {
     float: left;
-    height: 100%;
+}
+.header-menu .addon-box {
+    float: left;
+}
+.header-menu .addon-box:first-child {
+    padding-right: 88px;
+    border-right: 1px solid #ebebeb;
+    padding-left: 0;
+    border-left: 0;
+}
+.header-top .right .addon-box:not(:last-child) .btn-xs {
+    padding-right: 30px;
+    border-right: 1px solid #ebebeb;
+    border-left: 0;
+}
+.header-top .right .addon-box:first-child .btn-xs{
+    padding-left: 0;
+}
+.header-top .right{
+    margin-left: 15px;
+    padding-left: 0;
+}
+.banner-1 .include_content_s, .banner-3 .include_content_s {
+    margin-right: -70px;
     margin-left: 0;
-    opacity: 1;
-    position: fixed;
-    top: 0;
-    transform: translateX(-370px);
-	left:0;
-	right:auto !important;
 }
-.open .top_menu_second {
-    transform: translateX(0px);
-}
-#open-button::before {
-    left: 30px;
-    top: 49px !important;
-}
-.home_3 .jms-megamenu .mega-nav .mega > a::after {
-    right: 20px;
-    left: auto;
-     -ms-transform: rotate(0deg); 
-    -webkit-transform: rotate(0deg); 
-    transform: rotate(0deg);
-}
-.home_3 .jms-megamenu .mega-nav li > a:hover {
-    padding-right:0px;
-	padding-left:35px;
-}
-.home_3 .mega-col-nav.col-sm-3 {
-    padding-left: 40px;
-    padding-right: 0px !important;
-}
-.home_3 .jms-megamenu .nav > .item-fullwidth .mega-nav li > a:hover {
-    padding-left: 15px;
-	padding-right:0px;
-}
-.dropdown-menu.mega-dropdown-menu {
-    left: 100% !important;
-	right:auto !important;
-}
-.jms-megamenu .menu-align-center > .dropdown-menu {
-    left: 100% !important;
-    right: auto !important;
-    transform: translate(0%) !important;
-}
-.pe.pe-7s-close {
-    left: 56px;
-    right: auto;
-}
-.text_menu {
-    padding: 8px 51px 8px 0;
-}
-#cart_block .shoppingcart-box {
-    left: 0 !important;
-    right: auto;
-    top: 69px;
-}
-.menu-wrap {
-    left: -300px !important;
-    right: auto !important;
-	transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
-}
-.show-menu .menu-wrap {
-    left: 0 !important;
-    right: auto !important;
-	transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s !important;
-}
-.news_content .form-group .newsletter-input{
-	border-radius:0 4px 4px 0;
-}
-.newsletter-btn.buttonh2{
-	 transform: rotate(180deg);
-}
-footer .blog-item .img-responsive {
-    margin-left: 24px;
+.banner-2 .include_content_s {
+    text-align: left;
+    margin-left: -63px;
     margin-right: 0;
 }
-.foooter_bottom_right p{
-	text-align:left;
+.footer-top .social .addon-box {
+    float: left;
 }
-.blog_footer_center {
-    padding-left: 55px;
-    padding-right: 15px
+.footer-top #social_block ul {
+    margin-left: -7px;
+    margin-right: 0;
 }
-.contact_footer {
-    padding-left: 83px;
-    padding-right: 15px;
+.footer-top .newsletter .newsletter-input {
+    padding-right: 110px;
 }
-.foooter_bottom_left li {
-    padding-left: 40px;
-    padding-right: 0;
+.footer-top .newsletter .form-group .text-customs {
+    border-left: 1px solid #292929;
+    margin-left: -96px;
+    border-right: 0;
+    margin-right: 0;
 }
-.foooter_bottom_right p{
-	text-align:left;
+.footer-mid ul li:not(:last-child) {
+    border-left: 1px solid #292929;
+    border-right: 0;
 }
-@media(max-width: 1199px){
-	#ajax_search{
-		top:-7px !important;
-	}
-	.header_top {
-		padding: 35px 15px 35px 58px;
-	}
+.footer-bot .right .addon-box {
+    float: left;
 }
-@media(max-width: 767px){
-   .foooter_bottom_right p{
-	text-align:right;
+.footer-bot .right img {
+    padding-right: 16px;
+    padding-left: 0;
 }
+.header-menu .jms-megamenu .mega-nav .mega > a::after {
+    left: 20px !important;
+    right: auto !important;
 }
-@media(max-width: 481px){
-   #open-button::before {
-		top: 46px !important;
-	}
-	#ajax_search {
-		top: 12px !important;
-		right: 121px !important;
-	}
+.header-menu .level0 .menu-item.item-fullwidth > .nav-child {
+    left: -400px !important;
+    right: auto !important;
+}
+.header-top .right #search_result {
+    left: 307px;
+    right: auto;
 }

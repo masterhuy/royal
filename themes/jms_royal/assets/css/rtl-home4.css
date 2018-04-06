@@ -5,7 +5,6 @@
 }
 .topbar_right .addon-box:first-child {
     border-left: 0 none;
-    border-right: 1px solid #dadada;
     padding-left: 0;
     padding-right: 30px;
 }
@@ -29,9 +28,6 @@
 .blog_h4 .post-info {
     padding-left: 0;
     padding-right: 38px;
-}
- .block_content.block_c_right .newsletter-input{
-	border-radius:0 4px 4px 0;
 }
 .newsletter-btn.buttonh1{
 	border-radius:4px 0 0 4px;
@@ -70,4 +66,54 @@
 		left:0;
 		right:auto;
 	}
+}
+.jms-row.topbar::before {
+    margin-right: -900px;
+}
+.header_bar::after {
+    margin-right: -500px;
+}
+.header_bar .item-fullwidth .mega-nav li > a  {
+  padding: 3.5px 25px 3.5px 0 !important;
+}
+.header_bar .headerbar_right #ajax_search {
+    right: -215px;
+}
+.footer-top .icon-earphones-alt {
+    right: 0;
+}
+.footer-top .phone {
+    padding-right: 40px;
+    padding-left: 0;
+}
+.footer-top .info ul li::before, .footer-top .account ul li::before {
+    padding-left: 10px;
+    padding-right: 0;
+}
+.footer-mid #social_block ul {
+    float: right;
+}
+#social_block ul li {
+    margin-left: 27px;
+    margin-right: 0;
+}
+.footer-mid .newsletter .newsletter-input {
+    padding-right: 110px;
+    padding-left: 0;
+}
+.footer-mid .newsletter .form-group .text-customs {
+    border-left: 1px solid #292929;
+    margin-left: -96px;
+    border-right: 0;
+    margin-right: 0;
+}
+.footer-mid .payment p {
+    text-align: left;
+}
+.footer-mid .payment p img {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.header_bar #search_result {
+    left: 216px;
 }

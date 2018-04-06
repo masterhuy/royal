@@ -50,7 +50,12 @@
           </li>
         {/foreach}
       </ul>
+      <div class="scroll-box-arrows">
+        <i class="fa fa-sort-up left"></i>
+        <i class="fa fa-sort-down right"></i>
+      </div>
     </div>
+
   {/block}
 </div>
 {hook h='displayAfterProductThumbs'}

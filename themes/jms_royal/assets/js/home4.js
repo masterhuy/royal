@@ -1,4 +1,20 @@
-
+/*fixed menu*/
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+	
+        if ($("body").hasClass("home_4")&& scroll > 10 && $(window).width() > 10) {
+            $('.topbar').addClass('hidden');
+            $('.header_bar').addClass('fixed');
+			 $('.ajax_search').addClass('fixed');
+        } else {
+            $('.topbar').removeClass('hidden');
+			$('.header_bar').removeClass('fixed');
+			$('.ajax_search').removeClass('fixed');
+        }
+    });
+	
+});
 $(window).load(function(){
 		if($('.slider').length > 0)
 		$('.slider').fractionSlider({	

@@ -1,4 +1,4 @@
-$(window).load(function(){
+-$(window).load(function(){
 		if($('.slider').length > 0)
 		$('.slider').fractionSlider({	
 			'slideTransition' : jmsslider_trans,

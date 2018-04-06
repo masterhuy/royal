@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-30 05:42:30
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:12:58
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14435abe068674ddb0-13461229%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:151195ac71dfa1fcec1-82930655%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl',
-      1 => 1522376238,
+      1 => 1522813305,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '14435abe068674ddb0-13461229',
+  'nocache_hash' => '151195ac71dfa1fcec1-82930655',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5abe06867c30c7_17451057',
+  'unifunc' => 'content_5ac71dfa2c03c3_50552568',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5abe06867c30c7_17451057')) {function content_5abe06867c30c7_17451057($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ac71dfa2c03c3_50552568')) {function content_5ac71dfa2c03c3_50552568($_smarty_tpl) {?>
 
 <!-- Block Newsletter module-->
 <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==1||$_smarty_tpl->tpl_vars['jpb_homepage']->value==5) {?>
@@ -151,6 +151,7 @@ img/newsletter.jpg" alt="">
 			<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['index'], ENT_QUOTES, 'UTF-8');?>
 #footer" method="post">
 				<div class="form-group<?php if (isset($_smarty_tpl->tpl_vars['msg']->value)&&$_smarty_tpl->tpl_vars['msg']->value) {?> <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>form-error<?php } else { ?>form-ok<?php }?><?php }?>" >
+					<div class="text-customs">subcribe</div>
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
 " placeholder="<?php echo smartyTranslate(array('s'=>'Your email...','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 " />

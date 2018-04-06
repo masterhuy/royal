@@ -148,6 +148,7 @@
         <div  class="block_content block_c_right">
 			<form action="{$urls.pages.index}#footer" method="post">
 				<div class="form-group{if isset($msg) && $msg } {if $nw_error}form-error{else}form-ok{/if}{/if}" >
+					<div class="text-customs">subcribe</div>
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{$value}" placeholder="{l s='Your email...' d='Shop.Forms.Labels'}" />
 					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>

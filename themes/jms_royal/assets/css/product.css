@@ -88,7 +88,6 @@
     display: inline;
 }
 .images-container .product-images > li.thumb-container > .thumb {
-    margin-right: 22px;
     width: 83px;
 }
 .product-images > li.thumb-container > .thumb.selected, .product-images > li.thumb-container > .thumb:hover {
@@ -98,8 +97,7 @@
     display: none;
 }
 .scroll-box-arrows.scroll{
-    /*display: block;*/
-	position:relative;
+    display: block;
 }
 .images-container .flex-box {
  	display: flex;
@@ -120,25 +118,29 @@
 }
 .arrows.js-arrows i, .scroll-box-arrows i {
     background: #f3f4f7 none repeat scroll 0 0;
-    border-radius: 50%;
     color: #838383;
     cursor: pointer;
-    height: 35px;
-    line-height: 35px;
     position: absolute;
     text-align: center;
-    top: calc(50% - 93px);
-    width: 35px;
+    width: 100%;
 }
 .arrows.js-arrows i:hover, .scroll-box-arrows i:hover {
     background: #111 none repeat scroll 0 0;
     color: #fff;
 }
+.fa-sort-up::before, .fa-sort-down::before {
+    font-size: 18px;
+}
 .scroll-box-arrows i.right {
-    right: -16px;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    padding: 3px 0 9px;
 }
 .scroll-box-arrows i.left {
-    left: -16px;
+    left: 0;
+    top: 0;
+    padding: 9px 0 3px;
 }
 .images-container .thumb-box .js-qv-mask.mask {
   max-height: 100%;
@@ -164,6 +166,7 @@
 .product-images > li.thumb-container > .thumb {
 	cursor: pointer;
 	margin-bottom: 13px;
+    margin-right: 10px;
 	width: 100%;
 }
 .images-container .js-qv-mask {
@@ -698,7 +701,9 @@
 	}
 }
 @media(max-width:1199px){
-	
+    .pb-left-column .images-container .product-cover {
+        padding-left: 10px;
+    }
 	.images-container .product-images > li.thumb-container > .thumb {
 		width: 90px;
 	}
@@ -711,7 +716,7 @@
 	  height: 47.1vw;
 	}
 	.images-container .product-images > li.thumb-container > .thumb {
-		width: 8.5vw;
+		width: 7.5vw;
 	}
 	#product #left-column.page-column, #category #left-column.page-column{
 		padding-right:15px;
@@ -729,6 +734,9 @@
 	}
 }
 @media(max-width:767px) {
+    .js-qv-mask.mask.scroll{
+        padding-right: 0;
+    }
 	.product-accessories .accessories-carousel .owl-stage-outer, .featured-products .propular-carousel .owl-stage-outer {
 		padding-bottom: 20px;
 	}
@@ -785,6 +793,9 @@
 	.product-quantity .add-to-cart{
        margin-left:38px;
 	}
+    .modal-content .product-quantity .add-to-cart{
+       margin-left:14px;
+    }
 	.product-quantity .add-to-cart{
 		padding:8px 16px;
 	}

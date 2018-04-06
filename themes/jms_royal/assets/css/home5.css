@@ -231,6 +231,13 @@
 	}
 }
 @media (max-width: 1199px){
+	.header-top .left #ajax_search{
+		top: 9px;
+	}
+	.header-top #cart_block .shoppingcart-box {
+		right: -15px;
+		top: 30px;
+	}
 	.headertop_center {
 		width: 62.333%;
 	}
@@ -245,6 +252,15 @@
 	}
 }
 @media (max-width: 991px){
+	.header-top .left #ajax_search {
+		top: 5px;
+	}
+	.header-top .right .addon-box:first-child{
+		order: 2;
+	}
+	.jms-row.menu{
+		transform: translateY(-90px);
+	}
 	 .headertop_left{
 		 text-align:center;padding: 30px 10px;
 	 }
@@ -290,6 +306,25 @@
 		width:100%;
 	}
 }
+@media (max-width: 736px){
+	.brand .brand-carousel {
+		padding: 30px 0;
+	}
+	div.brand{
+		margin-top: 30px;
+	}
+	footer .addon-title h3 {
+		margin-top: 30px;
+	}
+	.footer-top {
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	div.best-seller h3 {
+		padding-bottom: 0;
+		padding-top: 30px;
+	}
+}
 @media (max-width: 600px){
 	.testimonial-box{
 		display:block;
@@ -313,6 +348,25 @@
 	}
 }
 @media (max-width: 481px){
+	.banner .addon-box::before {
+		width: 97% !important;
+	}
+	.header-top .left #search_result {
+		left: 201px;
+	}
+	.header-top .left #ajax_search {
+		top: 5px;
+		left: 201px;
+	}
+	.header-top .left .addon-box a {
+		padding: 0 13px !important;
+	}
+	.header-top .left .addon-box:first-child a {
+		padding-left:0 !important;
+	}
+	.header-top .right #social_block {
+		padding-right: 15px !important;
+	}
 	.headertop_left{
 		border-bottom: 1px solid #ebebeb;
 		padding-bottom: 15px;
@@ -337,12 +391,20 @@
 	.newsletter-btn.buttonh1{
 		font-size:10px;
 	}
-	#ajax_search{
-		top:-15px !important;
+}
+@media (max-width: 375px){
+	.product-tab .product-preview .product-info .product_button {
+		 padding-top: 0px; 
 	}
-	.headertop_right .jms_ajax_search .dropdown-menu .pe{
-		right:-50px;
-		top:0;
+	.header-top #cart_block .shoppingcart-box {
+		right: -5px;
+	}
+	div.product-preview .product-info .product_button a {
+		padding: 7px 12px;
+		padding-top: 5px;
+	}
+	.text-addcart, .text-outofstock {
+		font-size: 9px;
 	}
 }
 .header-top{
@@ -352,7 +414,7 @@
 	float: left;
 	line-height: 39px;
 }
-.header-top .left .addon-box a {
+.header-top .left .addon-box .btn-xs {
 	border-right: 1px solid #ebebeb;
 	padding: 0 30px;
 }
@@ -361,10 +423,6 @@
 }
 .header-top .left .icon{
 	padding-left: 0 !important;
-}
-.header-top .left .addon-box a {
-	border-right: 1px solid #ebebeb;
-	padding: 0 30px;
 }
 .header-top .left .dropdown-menu .dropdown-item {
 	line-height: 40px;
@@ -435,18 +493,24 @@
 .menu .jms-megamenu .nav > li > a {
 	line-height: 62px;
 }
+.best-seller .container > .row{
+	overflow: hidden;
+}
+.best-seller .owl-carousel .owl-stage-outer{
+	overflow: visible;
+}
 .best-seller h3 {
 	font-size: 20px;
 	text-align: center;
 	padding-bottom: 29px;
 	padding-top: 96px;
 }
-.best-seller .product-miniature:hover{
-	box-shadow: 0 0 11px rgba(0, 0, 0, 0.12);
+.best-seller .product-miniature:hover {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 .banner .addon-box {
   text-align: center;
-  padding: 52px 0;
+  padding: 43px 20px;
   background: #000;
   color: #fff;
 }
@@ -456,11 +520,15 @@
   font-size: 22px;
   text-transform: capitalize;
   letter-spacing: 0.4px;
-  padding-bottom: 16px;
+  padding-bottom: 0;
 }
 .banner p{
 	font-size: 13px;
 	letter-spacing: 0.3px;
+	line-height: 2;
+}
+.banner .addon-title h3{
+	line-height: 2;
 }
 .banner .addon-box{
 	position: relative;
@@ -478,7 +546,6 @@
 }
 .banner{
 	margin-bottom: 96px;
-	margin-top: 16px;
 }
 .product-tab .product-preview{
 	display: flex;
@@ -494,8 +561,8 @@
 	text-align: left;
 	padding-left: 24px;
 	padding-top: 0;
-	margin-top:-4px;
-	padding-bottom:40px;
+	margin-top:-2px;
+	padding-bottom:22px;
 }
 .product-tab .product-miniature .product-info .product_button{
 	margin-left: -5px;

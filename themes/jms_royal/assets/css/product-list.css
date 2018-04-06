@@ -219,11 +219,13 @@
     padding-right: 5px;
 }
 #category .color-style .custom-checkbox,
-#category .facet.categories .custom-checkbox {
+#category .facet.categories .custom-checkbox,
+#category .facet.price .custom-checkbox {
 	padding-right:19px;
 }
 #category .facet.categories .facet-label input,
-#category .facet.color .facet-label input {
+#category .facet.color .facet-label input,
+#category .facet.price .facet-label input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
@@ -375,3 +377,52 @@
 	}
 }
 /* ------ */
+#category .facet-label .checkmark-circle {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border: 1px solid #c2c2c2;
+}
+#category .facet-label:hover input ~ .checkmark-circle {
+  background-color: #111;
+}
+#category .facet-label input:checked ~ .checkmark-circle {
+  background-color: #111;
+}
+#category .facet-label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+#category .facet-label input:checked ~ .checkmark-circle:after {
+  display: block;
+}
+#category .facet-label .checkmark-circle:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+@media (max-width: 666px){
+	#category .products-list-in-row .product-miniature{
+		display: inline-block;
+	}
+	#category .products-list-in-row .product-miniature .product-info{
+		padding-left: 0;
+		padding-top: 30px;
+	}
+	#category .products-list-in-row .product-preview:hover .product-info .product_button {
+		transform: unset;
+	}
+	#category .products-list-in-row .content_price {
+		padding-bottom: 16px;
+	}
+}

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-30 05:58:32
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:13:43
          compiled from "D:\xampp\htdocs\jms_royal\themes\jms_royal\modules\jmspagebuilder\views\templates\hook\addoninstagram.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:256715abe0a480f8c20-53643224%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:285135ac71e2718e6e0-14098606%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '256715abe0a480f8c20-53643224',
+  'nocache_hash' => '285135ac71e2718e6e0-14098606',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5abe0a48108634_75226243',
+  'unifunc' => 'content_5ac71e271b57f9_60005472',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5abe0a48108634_75226243')) {function content_5abe0a48108634_75226243($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5ac71e271b57f9_60005472')) {function content_5ac71e271b57f9_60005472($_smarty_tpl) {?>
 <div class="addon-title">
 	<h3>
 		<?php echo smartyTranslate(array('s'=>'INSTAGRAM RECENT','d'=>'Modules.JmsPagebuilder'),$_smarty_tpl);?>

@@ -72,7 +72,7 @@
 	 <a href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' d='Shop.Theme.CustomerAccount'}" class="account" rel="nofollow">
 		{if $jpb_homepage == 1}
     <span class="icon-user icons"></span>
-        <p>Account</p>
+        <p class="account">Account</p>
     {/if}
     {if $jpb_homepage == 2 || $jpb_homepage == 4 || $jpb_homepage == 8}
     <span>Login</span>

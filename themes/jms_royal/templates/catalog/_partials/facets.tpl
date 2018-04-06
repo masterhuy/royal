@@ -57,13 +57,10 @@
                             {if $filter.active } checked {/if}
                           >
                           <span class="checkmark"></span>
-                          {if isset($filter.properties.color)}
-                          <span class="checkmark"></span>
-                          {elseif isset($filter.properties.category)}
                               
-                            {else}
-                            <span {if !$js_enabled} class="ps-shown-by-js" {/if}></span>
-                          {/if}
+                          
+                          <span {if !$js_enabled} class="ps-shown-by-js" {/if}></span>
+                          
 						  
                         </span>
                       {else}
@@ -74,6 +71,7 @@
                             name="filter {$facet.label}"
                             {if $filter.active } checked {/if}
                           >
+                          <span class="checkmark-circle"></span>
                           <span {if !$js_enabled} class="ps-shown-by-js" {/if}></span>
                         </span>
                       {/if}

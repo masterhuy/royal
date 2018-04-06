@@ -22,6 +22,8 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCa-7rjIFsM7jSLL6n02aAqC0mZRVh7ZIY &callback=initMap"
+  type="text/javascript"></script>
 {foreach $javascript.external as $js}
   <script type="text/javascript" src="{$js.uri}" {$js.attribute}></script>
 {/foreach}

@@ -76,14 +76,14 @@
 	letter-spacing: 0.15em;
 }
 .fraction-slider .prev{
-	left:50px; 
+	left:5%; 
 	background:url(../img/fraction/right.png) #fff no-repeat center center;
 	-ms-transform: rotate(180deg); 
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 .fraction-slider .next{
-	right:50px; 
+	right:5%; 
 	background:url(../img/fraction/right.png) #fff no-repeat center center;
 }
 .fraction-slider .prev:hover{
@@ -127,8 +127,15 @@
 }
 
 @media (max-width: 991px){
-.fraction-slider:hover .prev, .fraction-slider:hover .numbprev,
-.fraction-slider:hover .next, .fraction-slider:hover .numbnext{
-	display:none !important;
+	.fraction-slider:hover .prev, .fraction-slider:hover .numbprev,
+	.fraction-slider:hover .next, .fraction-slider:hover .numbnext{
+		display:none !important;
+	}
 }
+@media (max-width: 767px){
+	.fraction-slider .prev, .fraction-slider .next{
+		width: 25px;
+		height: 25px;
+		background-size: 5px !important; 
+	}
 }

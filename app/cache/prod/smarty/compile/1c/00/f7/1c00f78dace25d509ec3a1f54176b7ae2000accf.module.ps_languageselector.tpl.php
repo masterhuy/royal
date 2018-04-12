@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:12:57
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 00:25:45
          compiled from "module:ps_languageselector/ps_languageselector.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:114145ac71df9519bc3-80671004%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:261025acd8e495795b4-49411212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1c00f78dace25d509ec3a1f54176b7ae2000accf' => 
     array (
       0 => 'module:ps_languageselector/ps_languageselector.tpl',
-      1 => 1522984211,
+      1 => 1523342099,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '114145ac71df9519bc3-80671004',
+  'nocache_hash' => '261025acd8e495795b4-49411212',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac71df9565e80_08145916',
+  'unifunc' => 'content_5acd8e495fe2d1_50332045',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac71df9565e80_08145916')) {function content_5ac71df9565e80_08145916($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5acd8e495fe2d1_50332045')) {function content_5acd8e495fe2d1_50332045($_smarty_tpl) {?>
 <!-- Block languages module -->
 <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==10) {?>
 	<?php if (count($_smarty_tpl->tpl_vars['languages']->value)>1) {?>
@@ -99,7 +99,7 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 					<li <?php if ($_smarty_tpl->tpl_vars['language']->value['id_lang']==$_smarty_tpl->tpl_vars['current_language']->value['id_lang']) {?> class="current" <?php }?>>
 						<a href="<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0][0]->getUrlSmarty(array('entity'=>'language','id'=>$_smarty_tpl->tpl_vars['language']->value['id_lang']),$_smarty_tpl);?>
 " class="dropdown-item">
-							<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language']->value['name_simple'], ENT_QUOTES, 'UTF-8');?>
+							<?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['truncate'][0][0]->smarty_modifier_truncate($_smarty_tpl->tpl_vars['language']->value['name_simple'],3,''), ENT_QUOTES, 'UTF-8');?>
 
 						</a>
 					</li>

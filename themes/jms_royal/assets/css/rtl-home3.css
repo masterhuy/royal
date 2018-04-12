@@ -1,15 +1,19 @@
 .header-top .right #ajax_search {
-    left: 306px;
+    left: 316px;
     right: auto;
 }
 .header-top .right .addon-box {
     float: left;
 }
+.header-top .right .addon-box:last-child a {
+    padding-right: 0 !important;
+    padding-left: 47px;
+}
 .header-menu .addon-box {
     float: left;
 }
 .header-menu .addon-box:first-child {
-    padding-right: 88px;
+    padding-right: 61px;
     border-right: 1px solid #ebebeb;
     padding-left: 0;
     border-left: 0;
@@ -71,6 +75,6 @@
     right: auto !important;
 }
 .header-top .right #search_result {
-    left: 307px;
+    left: 316px;
     right: auto;
 }

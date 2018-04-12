@@ -31,13 +31,14 @@
     padding: 3px 30px;
     text-transform: capitalize;
     padding-left: 60px;
+    color: rgb(255,255,255,0.5);
 }
 #off-canvas-menu .dropdown-menu > li > a:focus, #off-canvas-menu .dropdown-menu > li > a:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     color: #d0d0d0;
     text-decoration: none;
 }
-#off-canvas-menu li a {
+#off-canvas-menu .level0 > li > a {
     border-radius: 0;
     color: #fff;
     display: block;
@@ -59,18 +60,13 @@
 	background-color:#0d0d0d;
 }
 #off-canvas-menu .btn-group .dropdown-menu {
-    background: #0f0f0f none repeat scroll 0 0;
-    left: 0;
-    margin: 1px auto 0;
     position: absolute;
-    right: 0;
-    text-align: center;
-    width: 271px;
 }
-#off-canvas-menu .currency-info a , #off-canvas-menu .user-info a, #off-canvas-menu .languages-info a, 
-#off-canvas-menu .currency-info .btn-name{
-    color: #7c7c7c;
-    font-size: 14px;
+#off-canvas-menu .currency-info a, #off-canvas-menu .user-info a, #off-canvas-menu .languages-info a, #off-canvas-menu .currency-info .btn-name {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 #off-canvas-menu  .btn-group.open {
     background: #0f0f0f none repeat scroll 0 0;
@@ -80,11 +76,8 @@
     margin-right: 50px;
 }
 #off-canvas-menu .btn-group {
-    margin: 0 auto 2px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    width: 270px;
+    text-align: left;
+    padding: 10px 0 10px 50px;
 }
 #off-canvas-menu .btn-group > ul li span, #off-canvas-menu .btn-group > ul li a {
     color: #7c7c7c;
@@ -94,16 +87,24 @@
 #off-canvas-menu .btn-group.open .dropdown-menu::before {
     display: none;
 }
-#off-canvas-menu  .btn-group.open::before {
+#off-canvas-menu  .btn-xs::before {
     color: #7c7c7c;
     content: "";
     font-family: "fontawesome";
     line-height: 42px;
     position: absolute;
     right: 21px;
+    top: 0;
+    color: #fff;
+    transform: rotate(-90deg);
+    font-size: 15px;
+    font-weight: 500;
+}
+#off-canvas-menu  .btn-group.open .btn-xs::before {
+    transform: rotate(0deg);
 }
 #off-canvas-menu .nav {
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 #off-canvas-menu .menu-item.mega .mod-content {
     display: none;
@@ -137,6 +138,24 @@
 	width:20px;
 	height:20px;
 	line-height:20px;
-	margin-top:5px;
 	text-align:center;
+}
+#off-canvas-menu .icon-user{
+    display: none;
+}
+#off-canvas-menu #_desktop_user_info .btn-group > ul {
+    display: none;
+}
+#off-canvas-menu #_desktop_user_info .account {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+#off-canvas-menu #_desktop_user_info .user-info::before{
+    content: "";
+}
+#off-canvas-menu .btn-xs{
+    width: 100%;
+    display: block;
 }

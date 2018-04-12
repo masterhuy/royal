@@ -99,18 +99,18 @@
 						{$product.description_short|truncate:170:'...' nofilter}
 					 </div>
                     <div class="product_button">
-							<a {if $product.quantity < 1}disabled{/if} class="ajax-add-to-cart product-btn cart-button btn-effect btn-default {if $product.quantity < 1}disabled{/if}" data-id-product="{$product.id}" data-minimal-quantity="{$product.minimal_quantity}" data-token="{if isset($static_token) && $static_token}{$static_token}{/if}">
+							<a {if $product.quantity < 1}disabled{/if} class="ajax-add-to-cart product-btn cart-button btn-default {if $product.quantity < 1}disabled{/if}" data-id-product="{$product.id}" data-minimal-quantity="{$product.minimal_quantity}" data-token="{if isset($static_token) && $static_token}{$static_token}{/if}">
 								    <span class="text-addcart">{l s='Add to cart' d='Shop.Theme.Actions'}	</span>		
 								    <span class="text-outofstock">{l s='Out of stock' d='Shop.Theme.Actions'}</span>
                                     <span class="fa fa-spin fa-spinner"></span>
 									<span class="pe pe-7s-check"></span>								   
 							</a>
                            							
-							<a href="javascript:void()" class="addToWishlist product-btn btn-effect btn-default"  onclick="WishlistCart('wishlist_block_list', 'add', '{$product.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$product.id_product|escape:'html'}" title="{l s='Add to Wishlist'}">
+							<a href="javascript:void()" class="addToWishlist product-btn btn-default"  onclick="WishlistCart('wishlist_block_list', 'add', '{$product.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$product.id_product|escape:'html'}" title="{l s='Add to Wishlist'}">
 							  <span class="icons icon-heart"></span>
 							</a>
 							
-							<a  data-link-action="quickview" class="quick-view product-btn hidden-xs btn-default btn-effect">
+							<a  data-link-action="quickview" class="quick-view product-btn hidden-xs btn-default">
 								<span class="icons icon-eye"></span>
 							</a>
 					</div>

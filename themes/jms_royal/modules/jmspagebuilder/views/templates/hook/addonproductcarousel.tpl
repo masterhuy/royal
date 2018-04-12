@@ -36,6 +36,7 @@
 {if $addon_title}
 <div class="addon-title">
 	<h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
+	<a href="{$allproductslink}" class="view-all">View all</a>
 </div>
 {/if}	
 <div class="product-carousel custom_carousel">	

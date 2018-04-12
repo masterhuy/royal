@@ -117,3 +117,9 @@
 .header_bar #search_result {
     left: 216px;
 }
+.cd-box .countdown-box p::before {
+    margin-right: -22px;
+}
+.cd-box .countdown-box p::after {
+    margin-right: 10px;
+}

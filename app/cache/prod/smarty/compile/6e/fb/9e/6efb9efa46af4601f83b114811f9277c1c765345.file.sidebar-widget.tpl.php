@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:16:46
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 03:13:05
          compiled from "modules\jmsblogwidget\views\templates\hook\sidebar-widget.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:22925ac71ede5f65d0-06533361%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13225acdb58131df60-38104768%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '22925ac71ede5f65d0-06533361',
+  'nocache_hash' => '13225acdb58131df60-38104768',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac71ede6b1e07_10648785',
+  'unifunc' => 'content_5acdb5813ae807_68248279',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac71ede6b1e07_10648785')) {function content_5ac71ede6b1e07_10648785($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'D:\\xampp\\htdocs\\jms_royal\\vendor\\prestashop\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5acdb5813ae807_68248279')) {function content_5acdb5813ae807_68248279($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'D:\\xampp\\htdocs\\jms_royal\\vendor\\prestashop\\smarty\\plugins\\modifier.date_format.php';
 ?>
 <aside class="blog-widget widget-tabs">	
 	<div role="tabpanel" class="jms-tab">		  

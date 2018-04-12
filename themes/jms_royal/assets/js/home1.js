@@ -26,11 +26,12 @@ $(window).load(function(){
 });
 jQuery(function ($) {
     "use strict";
+	"use strict";
 	if($(".product-carousel").length) {
-			var productCarousel = $(".product-carousel");			
+			var productcarousel = $(".product-carousel");			
 			var rtl = false;
 			if ($("body").hasClass("rtl")) rtl = true;				
-			productCarousel.owlCarousel({
+			productcarousel.owlCarousel({
 				responsiveClass:true,
 				responsive:{			
 					1199:{

@@ -37,7 +37,7 @@
 		</div>				
 		<div class="dontshow">
 			<input type="checkbox" name="dontshowagain" value="1" id="dontshowagain" /> 
-			<label>{l s='Dont show this box again' d='Modules.JmsPagebuilder'}</label>
+			<label>{l s='Don't show this popup again' d='Modules.JmsPagebuilder'}</label>
 		</div>		
 		<a class="popup-close"><i class="fa fa-close"></i></a>
 		<input type="hidden" name="width_default" id="width-default" value="{$popup_width|escape:'htmlall':'UTF-8'}" />

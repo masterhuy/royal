@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:12:58
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 00:25:46
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:151195ac71dfa1fcec1-82930655%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:235485acd8e4a333721-09422322%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl',
-      1 => 1522813305,
+      1 => 1523346530,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '151195ac71dfa1fcec1-82930655',
+  'nocache_hash' => '235485acd8e4a333721-09422322',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac71dfa2c03c3_50552568',
+  'unifunc' => 'content_5acd8e4a3e33a9_49504060',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac71dfa2c03c3_50552568')) {function content_5ac71dfa2c03c3_50552568($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5acd8e4a3e33a9_49504060')) {function content_5acd8e4a3e33a9_49504060($_smarty_tpl) {?>
 
 <!-- Block Newsletter module-->
 <?php if ($_smarty_tpl->tpl_vars['jpb_homepage']->value==1||$_smarty_tpl->tpl_vars['jpb_homepage']->value==5) {?>
@@ -37,7 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 img/newsletter.jpg" alt="">
 		<?php }?>
 		<h2>
-			<?php echo smartyTranslate(array('s'=>'Sign Up Our Newsletter','d'=>'Shop.Theme'),$_smarty_tpl);?>
+			<?php echo smartyTranslate(array('s'=>'Sign Up To Our Newsletter','d'=>'Shop.Theme'),$_smarty_tpl);?>
 
 		</h2>
 	</div>
@@ -76,11 +76,11 @@ img/newsletter.jpg" alt="">
 " placeholder="<?php echo smartyTranslate(array('s'=>'Your email...','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 " />
 						
-						<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+						<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 							<i class="icon-paper-plane icons" aria-hidden="true"></i>
 						</button>
 						<?php }?>
-						<button type="submit" name="submitNewsletter" class="newsletter-btn popup btn-default btn-effect">
+						<button type="submit" name="submitNewsletter" class="newsletter-btn popup btn-default">
 							<?php echo smartyTranslate(array('s'=>'Subscribe','d'=>'Shop.Theme'),$_smarty_tpl);?>
 
 						</button>
@@ -126,7 +126,7 @@ img/newsletter.jpg" alt="">
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
 " placeholder="<?php echo smartyTranslate(array('s'=>'Your email...','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 " />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />
@@ -151,11 +151,11 @@ img/newsletter.jpg" alt="">
 			<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['pages']['index'], ENT_QUOTES, 'UTF-8');?>
 #footer" method="post">
 				<div class="form-group<?php if (isset($_smarty_tpl->tpl_vars['msg']->value)&&$_smarty_tpl->tpl_vars['msg']->value) {?> <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>form-error<?php } else { ?>form-ok<?php }?><?php }?>" >
-					<div class="text-customs">subcribe</div>
+					<div class="text-customs">subscribe</div>
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
 " placeholder="<?php echo smartyTranslate(array('s'=>'Your email...','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 " />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />
@@ -188,7 +188,7 @@ img/newsletter.jpg" alt="">
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
 " placeholder="<?php echo smartyTranslate(array('s'=>'Your email...','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 " />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />
@@ -222,7 +222,7 @@ img/newsletter.jpg" alt="">
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value, ENT_QUOTES, 'UTF-8');?>
 " placeholder="<?php echo smartyTranslate(array('s'=>'Enter your email...','d'=>'Shop.Forms.Labels'),$_smarty_tpl);?>
 " />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />

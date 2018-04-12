@@ -1165,3 +1165,9 @@ footer .post-created {
   margin-left: 4px;
   margin-right: 0;
 }
+.product-images > li.thumb-container > .thumb {
+  margin-right: 10px;
+}
+.view-all::before {
+  left: -73px;
+}

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:13:41
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 00:39:30
          compiled from "D:\xampp\htdocs\jms_royal\themes\jms_royal\modules\jmspagebuilder\views\templates\hook\addonsliderlayer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:214225ac71e25ae8ec7-18768784%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:300785acd9182dca3a5-13065992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '214225ac71e25ae8ec7-18768784',
+  'nocache_hash' => '300785acd9182dca3a5-13065992',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac71e25c86fe2_48665167',
+  'unifunc' => 'content_5acd9182edbaa6_51898561',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac71e25c86fe2_48665167')) {function content_5ac71e25c86fe2_48665167($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5acd9182edbaa6_51898561')) {function content_5acd9182edbaa6_51898561($_smarty_tpl) {?>
 <div class="jms-slider-wrapper">
 	<div class="responisve-container">
 		<div class="slider" >

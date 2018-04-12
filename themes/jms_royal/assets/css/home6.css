@@ -8,6 +8,7 @@
 }
 .top-bar .left li a{
     color: #fff;
+    opacity: 0.75;
 }
 .top-bar .left li:first-child {
     border-right: 1px solid #272727;
@@ -47,6 +48,13 @@
 }
 .top-bar .right a {
     color: #fff;
+    opacity: 0.75;
+}
+.header .menu .jms-megamenu .nav > li {
+    padding: 0 25.5px;
+}
+.header .menu{
+    text-align: center;
 }
 .header .menu .jms-megamenu .menu-align-center > .dropdown-menu {
     left: -400px;
@@ -61,7 +69,7 @@
 }
 .header .group {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .header .group .icon-magnifier.icons {
     padding: 10px 11px;
@@ -193,7 +201,7 @@
     font-size: 15px;
     padding: 65px 20px;
     background: #111;
-    color: #fff;
+    color: rgba(255,255,255,0.75);
     letter-spacing: 0.6px;
     line-height: 2;
 }
@@ -231,6 +239,9 @@
 .brand .brand-carousel {
     padding: 70.5px 0;
 }
+.newsletter .right #newsletter-input:hover, .newsletter .right #newsletter-input:focus {
+    border-color: #ebebeb;
+}
 .newsletter .left .feature-box {
     display: flex;
     justify-content: center;
@@ -254,6 +265,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
+    width: 77%;
 }
 .newsletter .right{
     position: relative;
@@ -264,7 +276,7 @@
 .newsletter .right .addon-box .form-group{
     display: flex;
     margin-bottom: 0;
-    margin-top: 37px;
+    margin-top: 36px;
 }
 .newsletter .right .addon-box .textnews h3{
     font-size: 20px;
@@ -275,9 +287,14 @@
 }
 .newsletter .right .addon-box .textnews span{
     font-size: 14px;
-    padding: 0px 20px;
     display: block;
     line-height: 2;
+    color: rgba(17,17,17,0.75);
+    padding: 0 85px;
+    letter-spacing: 0.3px;  
+}
+.newsletter #newsletter-input::-moz-placeholder{
+    color: rgba(17,17,17,0.5) !important;
 }
 .newsletter .right .addon-box .textnews h3::after {
     content: "";
@@ -300,9 +317,6 @@
     width: 51px;
     background-color: #ebebeb;
     border-left: 1px solid #d5d5d5;
-}
-.newsletter .right #newsletter-input::-moz-placeholder{
-    color: #111 !important;
 }
 .newsletter .right .newsletter-btn.footer.btn-effect:hover {
     background: #000;
@@ -327,7 +341,8 @@
 }
 .footer-top h3 {
     font-size: 17px;
-    padding-bottom: 25px;
+    padding-bottom: 25px !important;
+    text-align: left;
 }
 .footer-top .phone {
     font-size: 20px;
@@ -335,6 +350,7 @@
     position: relative;
     line-height: 46px;
     letter-spacing: 0;
+    color: rgba(17,17,17,0.75);
 }
 .footer-top .icon-earphones-alt{
     font-size: 30px;
@@ -342,29 +358,50 @@
     left: 0;
     top: 8px;
 }
-.footer-top{
-    padding-bottom: 84px;
-    padding-top: 96px;
+.footer-top .blog .post-meta li{
+    color: #111;
+}
+.footer-top .blog .post-meta{
+    opacity: 0.5;
+}
+.footer-top {
+    padding-bottom: 66px;
+    padding-top: 77px;
 }
 .footer-top .addon-desc{
     line-height: 32px;
     letter-spacing: 0.3px;
-    color: #111;
+    color: rgba(17,17,17,0.6);
 }
 .footer-top li {
     line-height: 32px;
     font-size: 14px;
     letter-spacing: 0.3px;
+    color: rgba(17,17,17,0.6);
+}
+.footer-top .info li a:hover, .footer-top .social li a:hover{
+    color: rgba(17,17,17,1);
+}
+.footer-top .info li a{
+    color: rgba(17,17,17,0.69);
+}
+.footer-top .social li a{
+    color: rgba(17,17,17,0.69);
+}
+.footer-top .blog a{
+    color: rgba(17,17,17,0.75);
 }
 .footer-top .info ul li::before{
     content: url(../img/demo/dot-h6.png);
-    padding-right: 10px;
+    padding-right: 6px;
 }
 .footer-top h5 {
     font-size: 18px;
     letter-spacing: 0px;
     padding-top: 23px;
     padding-bottom: 12px;
+    font-family: Arial;
+    color: rgba(17,17,17,0.75);
 }
 .footer-top #newsletter-input {
     background-color: #242424;
@@ -374,8 +411,11 @@
     color: #fff;
     margin-right: 0;
 }
-.footer-top #newsletter-input::-moz-placeholder{
-    color: #ebebeb !important;
+.newsletter #newsletter-input::-moz-placeholder{
+    color: rgba(17,17,17,0.5) !important;
+}
+.newsletter #newsletter-input::-webkit-input-placeholder{
+    color: rgba(17,17,17,0.5) !important;
 }
 .footer-top .newsletter-btn.footer {
     background-color: #242424;
@@ -457,7 +497,7 @@
     margin-right: 10px;
 }
 .footer-top .post-created p{
-    color: #111;
+    color: rgba(17,17,17,0.75);
 }
 .footer-top .post-created .date{
     font-size: 18px;

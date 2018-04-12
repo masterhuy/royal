@@ -137,6 +137,9 @@
 	}
 }
 @media (max-width: 991px){
+	.top-bar{
+		display: none;
+	}
    #open-button::before {
 		background: transparent url("../img/icon/iconmenu.png") no-repeat scroll 0 0;
 		border-radius: 50%;
@@ -254,7 +257,7 @@
 		letter-spacing: 1px;
 	}
 	.slides .text-large::after {
-		bottom: -5px;
+		bottom: 0px;
 	}
 	.title_meta, .breadcrumb-inner{
 		float:none;

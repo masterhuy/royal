@@ -103,7 +103,7 @@
 .topbar_right .addon-box a {
     color: #fff;  
     font-weight:400;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 14px;
 }
 .topbar_right .addon-box .languages-info a,
@@ -456,10 +456,10 @@
 }
 #social_block ul li {
     font-size: 18px;
-    margin-right: 27px;
+    margin-right: 17px;
 }
 #social_block ul li span{
-	color:#666;
+	color: rgba(255,255,255,0.15);
 }
 #social_block ul li:hover span {
     color:#fff;
@@ -588,6 +588,9 @@
 	}
 }
 @media (max-width: 991px){
+	.topbar{
+		display: none;
+	}
 	.footer-mid #social_block{
 		display: flex;
 		justify-content: center;
@@ -830,9 +833,11 @@
 	margin-top: 96px;
 	margin-bottom: 90px;
 }
-.welcome .addon-desc{
+.welcome .addon-desc {
 	line-height: 2;
-	padding:0 200px;
+	padding: 0px 195px;
+	letter-spacing: 0.3px;
+	color: rgba(17,17,17,0.75);
 }
 .welcome h3{
 	padding-bottom: 39px;
@@ -872,6 +877,7 @@
 	right: 35px;
 	transform: translateY(-50%);
 	color: #fff;
+	margin-top: -5px;
 }
 .banner .left .text-content p {
 	font-size: 17px;
@@ -882,6 +888,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	padding-bottom: 15px;
+	letter-spacing: -0.3px;
 }
 .banner .left .text-content a{
 	background: transparent;
@@ -893,7 +900,7 @@
 	font-family: 'Playfair Display', serif;
 	font-size: 18px;
 	font-weight: 600;
-	padding-bottom:46px;
+	padding-bottom:51px;
 }
 .banner .left .text-content a:hover{
 	background-color: #000;
@@ -971,10 +978,12 @@
     font-weight: 500;
 }
 .cd-box .countdown-box p {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    padding-bottom: 42px;
-    position: relative;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	padding-bottom: 42px;
+	position: relative;
+	letter-spacing: 0.3px;
+	color: rgba(17,17,17,0.8);
 }
 .cd-box{
 	margin-top:70px;
@@ -1025,6 +1034,9 @@
 .blog .post-title {
 	padding-bottom: 15px;
 }
+.footer-top h3 {
+	padding-bottom: 27px;
+}
 .footer-top .newletter_right_footer .title img,
 .footer-top .newletter_right_footer .title h2{
     display: none;
@@ -1045,7 +1057,7 @@
     position: relative;
     line-height: 46px;
     letter-spacing: 0;
-    opacity: 0.8;
+    opacity: 0.75;
 }
 .footer-top .icon-earphones-alt{
     font-size: 30px;
@@ -1053,16 +1065,16 @@
     left: 0;
     top: 8px;
 }
-.footer-top{
-    color: #ebebeb;
-    padding-bottom: 84px;
-    padding-top: 96px;
+.footer-top {
+	color: #ebebeb;
+	padding-bottom: 74px;
+	padding-top: 77px;
 }
 .footer-top .addon-desc{
     line-height: 32px;
     color: #ebebeb;
     letter-spacing: 0.3px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .footer-top li span {
     color: #ebebeb;
@@ -1080,7 +1092,16 @@
     line-height: 32px;
     font-size: 14px;
     letter-spacing: 0.3px;
-    opacity: 0.7;
+    opacity: 0.5;
+}
+.footer-top .info ul li, .footer-top .account ul li{
+    opacity: 1;
+}
+.footer-top .info ul li a, .footer-top .account ul li a{
+    opacity: 0.5;
+}
+.footer-top .info ul li a:hover, .footer-top .account ul li a:hover{
+    opacity: 1;
 }
 .footer-top .info ul li::before,
 .footer-top .account ul li::before{
@@ -1092,7 +1113,8 @@
     letter-spacing: 0px;
     padding-top: 23px;
     padding-bottom: 12px;
-    opacity: 0.8;
+    opacity: 0.75;
+	font-family: Arial;
 }
 .footer-top #newsletter-input {
     background-color: #242424;
@@ -1101,8 +1123,11 @@
     padding-left: 15px;
     opacity: 0.7;
 }
-.footer-top #newsletter-input::-moz-placeholder{
-    color: #ebebeb !important;
+.footer-mid #newsletter-input::-moz-placeholder{
+    color: rgba(235,235,235,0.3) !important;
+}
+.footer-mid #newsletter-input::-webkit-input-placeholder{
+    color: rgba(235,235,235,0.3) !important;
 }
 .footer-top .newsletter-btn.footer {
     background-color: #242424;
@@ -1156,9 +1181,6 @@
 	background-color: #111;
 	color: #fff;
 }
-.footer-mid #newsletter-input::-moz-placeholder{
-    color: #ebebeb !important;
-}
 .footer-mid .payment p{
 	line-height: 45px;
 	text-align: right;
@@ -1189,7 +1211,4 @@
 	background-color: #111;
 	border:0;
 	color: #fff;
-}
-.countdown.is-countdown {
-	margin-bottom: 70px;
 }

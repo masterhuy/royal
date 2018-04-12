@@ -36,6 +36,7 @@
 {if $addon_title}
 <div class="addon-title">
 	<h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
+	<a href="{$urls.base_url}index.php?fc=module&module=jmsblog&controller=category&category_id=1&sidebar=left&layout=category-layout-2columns" class="view-all">View all</a>
 </div>
 {/if}
 {if $addon_desc}

@@ -53,7 +53,7 @@
 		<img class="img-responsive" src="{$urls.base_url}img/newsletter.jpg" alt="">
 		{/if}
 		<h2>
-			{l s='Sign Up Our Newsletter' d='Shop.Theme'}
+			{l s='Sign Up To Our Newsletter' d='Shop.Theme'}
 		</h2>
 	</div>
 	<div id="newsletter_block_left" class="block">	
@@ -82,11 +82,11 @@
 						{if $jpb_homepage == 1 || $jpb_homepage == 5 || $jpb_homepage == 8}
 						<input class="inputNew footer form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{$value}" placeholder="{l s='Your email...' d='Shop.Forms.Labels'}" />
 						
-						<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+						<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 							<i class="icon-paper-plane icons" aria-hidden="true"></i>
 						</button>
 						{/if}
-						<button type="submit" name="submitNewsletter" class="newsletter-btn popup btn-default btn-effect">
+						<button type="submit" name="submitNewsletter" class="newsletter-btn popup btn-default">
 							{l s='Subscribe' d='Shop.Theme'}
 						</button>
 						<input type="hidden" name="action" value="0" />
@@ -125,7 +125,7 @@
 			<form action="{$urls.pages.index}#footer" method="post">
 				<div class="form-group{if isset($msg) && $msg } {if $nw_error}form-error{else}form-ok{/if}{/if}" >
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{$value}" placeholder="{l s='Your email...' d='Shop.Forms.Labels'}" />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />
@@ -148,9 +148,9 @@
         <div  class="block_content block_c_right">
 			<form action="{$urls.pages.index}#footer" method="post">
 				<div class="form-group{if isset($msg) && $msg } {if $nw_error}form-error{else}form-ok{/if}{/if}" >
-					<div class="text-customs">subcribe</div>
+					<div class="text-customs">subscribe</div>
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{$value}" placeholder="{l s='Your email...' d='Shop.Forms.Labels'}" />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />
@@ -178,7 +178,7 @@
 			<form action="{$urls.pages.index}#footer" method="post">
 				<div class="form-group{if isset($msg) && $msg } {if $nw_error}form-error{else}form-ok{/if}{/if}" >
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{$value}" placeholder="{l s='Your email...' d='Shop.Forms.Labels'}" />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />
@@ -207,7 +207,7 @@
 			<form action="{$urls.pages.index}#footer" method="post">
 				<div class="form-group{if isset($msg) && $msg } {if $nw_error}form-error{else}form-ok{/if}{/if}" >
 					<input class="inputNew popup form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{$value}" placeholder="{l s='Enter your email...' d='Shop.Forms.Labels'}" />
-					<button type="submit" name="submitNewsletter" class="newsletter-btn footer btn-effect">
+					<button type="submit" name="submitNewsletter" class="newsletter-btn footer">
 						<i class="icon-paper-plane icons" aria-hidden="true"></i>
 					</button>
 					<input type="hidden" name="action" value="0" />

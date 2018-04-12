@@ -109,6 +109,7 @@
     font-size: 13px;
     padding: 10px 0;
     width: 100%;
+    display: block;
 }
 .card.cart-summary .checkout a:hover{
 	  background-color: #111;

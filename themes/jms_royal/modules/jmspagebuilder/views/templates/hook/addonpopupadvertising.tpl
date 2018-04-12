@@ -37,7 +37,7 @@
 		</div>				
 		<div class="dontshow">
 			<input type="checkbox" name="dontshowagain" value="1" id="dontshowagain" /> 
-			<label>{l s='Dont show this box again' d='Shop.Theme'}</label>
+			<label>Don't show this popup again</label>
 		</div>		
 		<a class="popup-close"></a>
 		<input type="hidden" name="width_default" id="width-default" value="{$popup_width|escape:'htmlall':'UTF-8'}" />

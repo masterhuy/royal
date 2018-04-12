@@ -5,6 +5,10 @@
 .menu .item-fullwidth .mega-nav li > a  {
   padding: 3.5px 25px 3.5px 0 !important;
 }
+.menu .jms-megamenu > ul {
+	margin-right: -26px;
+	margin-left: 0;
+}
 .top-bar .right .languages-info .dropdown-menu {
 	right: -30px;
 }
@@ -60,4 +64,7 @@
 }
 .footer-top .icon-earphones-alt {
 	right: 0;
+}
+.menu .right .addon-box {
+	margin-left: 0;
 }

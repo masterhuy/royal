@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:13:42
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 00:39:31
          compiled from "D:\xampp\htdocs\jms_royal\themes\jms_royal\modules\jmspagebuilder\views\templates\hook\addonproductcarousel.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:53405ac71e2629bf21-77807465%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:49085acd91833df2a7-27351508%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '37ac9798cbf4f01374c091a91badbd74b38e81df' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_royal\\themes\\jms_royal\\modules\\jmspagebuilder\\views\\templates\\hook\\addonproductcarousel.tpl',
-      1 => 1521426482,
+      1 => 1523263039,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '53405ac71e2629bf21-77807465',
+  'nocache_hash' => '49085acd91833df2a7-27351508',
   'function' => 
   array (
   ),
@@ -25,15 +25,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pagination' => 0,
     'autoplay' => 0,
     'addon_title' => 0,
+    'allproductslink' => 0,
     'products_slides' => 0,
     'products_slide' => 0,
     'product' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac71e262c3023_95356036',
+  'unifunc' => 'content_5acd91834063a8_72091919',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac71e262c3023_95356036')) {function content_5ac71e262c3023_95356036($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5acd91834063a8_72091919')) {function content_5acd91834063a8_72091919($_smarty_tpl) {?>
 <script type="text/javascript">
 	var p_items = <?php if ($_smarty_tpl->tpl_vars['cols']->value) {?><?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['cols']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 <?php } else { ?>4<?php }?>;
@@ -53,6 +54,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="addon-title">
 	<h3><?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['addon_title']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 </h3>
+	<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['allproductslink']->value, ENT_QUOTES, 'UTF-8');?>
+" class="view-all">View all</a>
 </div>
 <?php }?>	
 <div class="product-carousel custom_carousel">	

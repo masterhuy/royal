@@ -27,6 +27,7 @@
 	<h3>
 		{l s='INSTAGRAM RECENT' d='Modules.JmsPagebuilder'}
 	</h3>
+	<a href="#" class="view-all">View all</a>
 </div>
 <div class="instagram-images">
 	{foreach from=$insta_images item=img}

@@ -70,7 +70,7 @@ jQuery(function ($) {
 			responsiveClass:true,
 			responsive:{            
 				1199:{
-                  items:3
+                  items:4
 				},
 				991:{
 					items:3
@@ -79,7 +79,7 @@ jQuery(function ($) {
 					items:2
 				},
 				481:{
-					items:2
+					items:1
 				},
 				361:{
 					items:1

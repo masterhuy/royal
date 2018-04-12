@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:13:43
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 00:39:32
          compiled from "D:\xampp\htdocs\jms_royal\themes\jms_royal\modules\jmspagebuilder\views\templates\hook\addoninstagram.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:285135ac71e2718e6e0-14098606%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15315acd91842f4cc1-75096026%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '8a88aabcb9fbc4f713ab33dff005e6c174478355' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_royal\\themes\\jms_royal\\modules\\jmspagebuilder\\views\\templates\\hook\\addoninstagram.tpl',
-      1 => 1521539781,
+      1 => 1523326619,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '285135ac71e2718e6e0-14098606',
+  'nocache_hash' => '15315acd91842f4cc1-75096026',
   'function' => 
   array (
   ),
@@ -22,14 +22,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac71e271b57f9_60005472',
+  'unifunc' => 'content_5acd91842f4cc6_32722323',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac71e271b57f9_60005472')) {function content_5ac71e271b57f9_60005472($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5acd91842f4cc6_32722323')) {function content_5acd91842f4cc6_32722323($_smarty_tpl) {?>
 <div class="addon-title">
 	<h3>
 		<?php echo smartyTranslate(array('s'=>'INSTAGRAM RECENT','d'=>'Modules.JmsPagebuilder'),$_smarty_tpl);?>
 
 	</h3>
+	<a href="#" class="view-all">View all</a>
 </div>
 <div class="instagram-images">
 	<?php  $_smarty_tpl->tpl_vars['img'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['img']->_loop = false;

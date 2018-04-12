@@ -26,6 +26,7 @@
   <h3>
     related products
   </h3>
+  <a href="#" class="view-all">View all</a>
   <div class="products customs-carousel-product">
       {foreach from=$products item="product"}
           {include file="catalog/_partials/miniatures/product.tpl" product=$product}

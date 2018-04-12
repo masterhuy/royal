@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-06 03:24:49
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-11 02:33:19
          compiled from "D:\xampp\htdocs\jms_royal\themes\jms_royal\modules\jmspagebuilder\views\templates\hook\addonblogh2.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:88005ac720c11e8273-69721133%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:40655acdac2fd73a76-12391401%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e1e0005bdb2df78c1e0905833afd203bc9b53784' => 
     array (
       0 => 'D:\\xampp\\htdocs\\jms_royal\\themes\\jms_royal\\modules\\jmspagebuilder\\views\\templates\\hook\\addonblogh2.tpl',
-      1 => 1521788474,
+      1 => 1523342567,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '88005ac720c11e8273-69721133',
+  'nocache_hash' => '40655acdac2fd73a76-12391401',
   'function' => 
   array (
   ),
@@ -25,6 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pagination' => 0,
     'autoplay' => 0,
     'addon_title' => 0,
+    'urls' => 0,
     'addon_desc' => 0,
     'posts' => 0,
     'post' => 0,
@@ -41,9 +42,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac720c12d2873_05702717',
+  'unifunc' => 'content_5acdac2fe65db0_60405805',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac720c12d2873_05702717')) {function content_5ac720c12d2873_05702717($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\jms_royal\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5acdac2fe65db0_60405805')) {function content_5acdac2fe65db0_60405805($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'D:\\xampp\\htdocs\\jms_royal\\vendor\\prestashop\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_modifier_date_format')) include 'D:\\xampp\\htdocs\\jms_royal\\vendor\\prestashop\\smarty\\plugins\\modifier.date_format.php';
 ?>
 <script type="text/javascript">	
@@ -64,6 +65,8 @@ if (!is_callable('smarty_modifier_date_format')) include 'D:\\xampp\\htdocs\\jms
 <div class="addon-title">
 	<h3><?php echo htmlspecialchars($_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_MODIFIER]['escape'][0][0]->smartyEscape($_smarty_tpl->tpl_vars['addon_title']->value,'htmlall','UTF-8'), ENT_QUOTES, 'UTF-8');?>
 </h3>
+	<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['urls']->value['base_url'], ENT_QUOTES, 'UTF-8');?>
+index.php?fc=module&module=jmsblog&controller=category&category_id=1&sidebar=left&layout=category-layout-2columns" class="view-all">View all</a>
 </div>
 <?php }?>
 <?php if ($_smarty_tpl->tpl_vars['addon_desc']->value) {?>

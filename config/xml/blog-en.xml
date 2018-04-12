@@ -6,6 +6,23 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Getting hit by chargebacks? How to protect your business and bottom line</title>
+    <link>https://www.prestashop.com/en/blog/getting-hit-by-chargebacks-how-to-protect-your-business-and-bottom-line</link>
+    <description>Accepting credit cards in your online store is a great way to generate more revenue for your business, but it also brings with it an element of buyer beware, or in this case, seller beware.</description>
+     <pubDate>Mon, 09 Apr 2018 14:20:56 +0200</pubDate>
+ <dc:creator>bambora</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/getting-hit-by-chargebacks-how-to-protect-your-business-and-bottom-line</guid>
+  </item>
+  <item>
+    <title>Mobile matters.</title>
+    <link>https://www.prestashop.com/en/blog/mobile-matters</link>
+    <description>E-commerce Trends
+ </description>
+     <pubDate>Mon, 09 Apr 2018 12:08:38 +0200</pubDate>
+ <dc:creator>paypal</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/mobile-matters</guid>
+  </item>
+  <item>
     <title>Avoid These 6 Common Credit Card Processing Nightmares </title>
     <link>https://www.prestashop.com/en/blog/avoid-these-6-common-credit-card-processing-nightmares-0</link>
     <description>As an e-commerce business owner, I’m sure you’ve been told time and time again that processing payments is simply going to be a hassle.</description>
@@ -68,22 +85,6 @@
      <pubDate>Thu, 08 Mar 2018 11:45:14 +0100</pubDate>
  <dc:creator>camille.teissier</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-1-7-3-0-is-available</guid>
-  </item>
-  <item>
-    <title>​​​​​​​Time to bridge the mobile gap!</title>
-    <link>https://www.prestashop.com/en/blog/time-to-bridge-the-mobile-gap</link>
-    <description>Mobile e-commerce traffic is increasing rapidly and is today larger than the PC traffic. But mobile sales are not developing at the same rate.</description>
-     <pubDate>Wed, 07 Mar 2018 19:00:17 +0100</pubDate>
- <dc:creator>ps_partners</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/time-to-bridge-the-mobile-gap</guid>
-  </item>
-  <item>
-    <title>How to partner with influencers to create engaging marketing campaigns.</title>
-    <link>https://www.prestashop.com/en/blog/how-to-partner-with-influencers-to-create-engaging-marketing-campaigns</link>
-    <description>Step by step process to find the right influencer for your brand.</description>
-     <pubDate>Mon, 26 Feb 2018 15:32:32 +0100</pubDate>
- <dc:creator>Habiba Ouenniche</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/how-to-partner-with-influencers-to-create-engaging-marketing-campaigns</guid>
   </item>
   </channel>
 </rss>

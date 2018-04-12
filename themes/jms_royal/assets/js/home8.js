@@ -1,9 +1,9 @@
- jQuery(document).ready(function($) {
-		  $('.jms-vermegamenu').jmsVerMegaMenu({       
-		  event: jmvmm_event,
-		  duration: jmvmm_duration
-		     });  
-});	
+ // jQuery(document).ready(function($) {
+	//   $('.jms-vermegamenu').jmsVerMegaMenu({       
+	//   event: jmvmm_event,
+	//   duration: jmvmm_duration
+	//      });  
+	// });	
 $(window).load(function(){
 		if($('.slider').length > 0)
 		$('.slider').fractionSlider({	
@@ -168,5 +168,39 @@ jQuery(function ($) {
 				    slideSpeed: 200
 			});
 		}
-
+	if($(".customs-carousel-product").length) {
+		  var customsCarouselProduct = $(".customs-carousel-product");
+		var rtl = false;
+		if ($("body").hasClass("rtl")) rtl = true;
+		customsCarouselProduct.owlCarousel({
+			responsiveClass:true,
+			responsive:{            
+				1199:{
+                  items:4
+				},
+				991:{
+					items:3
+				},
+				768:{
+					items:2
+				},
+				481:{
+					items:1
+				},
+				361:{
+					items:1
+				},
+				0:{
+					items:1
+				}
+			},
+			rtl: rtl,
+			margin: 30,
+			nav: true,
+			dots: false,
+			autoplay: true,
+			slideSpeed: 200,
+			loop:false,
+		});
+	}
 });

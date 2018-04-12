@@ -28,7 +28,7 @@
 }
 #search_filters .facet.size ul li a {
 	background: #f1f1f1 none repeat scroll 0 0;
-	color: #111;
+	color: rgba(17,17,17,0.75);
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
@@ -206,7 +206,7 @@
 	display: block;
 }
 #category .facet ul li a {
-    color: #111;
+    color: rgba(17,17,17,0.75);
     font-size: 15px;
 }
 #category .facet ul li a .magnitude {
